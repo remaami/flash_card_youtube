@@ -38,8 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # app that we are maked
     'card.apps.CardConfig',
+  
 
+    # packe installed
     'rest_framework',
 ]
 
