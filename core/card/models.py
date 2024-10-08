@@ -8,4 +8,4 @@ class FlashCard (models.Model):
     update_at = models.DateTimeField(auto_now=True)
 
     def __str__(self) -> str:
-        return f"{self.questio[0:10]}..."
+        return f"{self.question[0:10]}..."
